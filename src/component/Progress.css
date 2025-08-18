@@ -1,0 +1,31 @@
+/* Dark background for the app container (optional) */
+body {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Progress bar container */
+.progress-container {
+    width: 90%;
+    background-color: #2e2e3a;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 30px;
+    margin: 20px 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Inner fill */
+.progress-fill {
+    height: 100%;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+    transition: width 0.4s ease-in-out, background-color 0.3s ease-in-out;
+    border-radius: 12px 0 0 12px;
+    text-shadow: 1px 1px 2px #000;
+}
