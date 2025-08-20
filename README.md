@@ -1,4 +1,4 @@
-# Manual Progress Bar – 
+# Manual Progress Bar 
 
 A simple manual progress bar built with React, TypeScript, and Vite. The progress bar color changes based on the current progress value.
 
